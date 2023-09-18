@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.seminar_2.Motorcycle;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.seminar_2;
 
 public abstract class Vehicle {
     private String company;
