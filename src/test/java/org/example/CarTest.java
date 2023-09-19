@@ -1,6 +1,7 @@
 package org.example;
 
 import org.example.seminar_2.Car;
+import org.example.seminar_2.Vehicle;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -12,6 +13,10 @@ class CarTest {
     @BeforeEach
     void setup() {
         this.car = new Car("Ford", "Focus", 2005);
+    }
+    @Test
+    void isCar() {
+        assertTrue(car instanceof Vehicle);
     }
 
     @Test
